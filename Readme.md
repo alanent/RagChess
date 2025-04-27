@@ -49,7 +49,8 @@ L'index Faiss créé constitue la base de connaissances vectorielle du système 
 
 2.  **Lancer l'API d'embedding** :
     ```bash
-    python app.py
+    docker build -t searchless_chess .
+    docker run -d -p 5000:5000 searchless_chess
     ```
     Cette commande démarre le serveur Flask qui expose le modèle `searchless_chess` pour le calcul des embeddings.
 
