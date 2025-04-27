@@ -1,0 +1,21 @@
+# From searchless_chess requirements.txt (ensure versions are compatible)
+absl-py
+chess
+chex
+dm-haiku
+einops
+jax[cpu] # Or jax[cuda] if using GPU in Docker, needs nvidia-docker setup
+numpy
+optax
+# Add Flask for the API
+Flask
+jaxtyping
+graphviz
+grain-nightly
+orbax-checkpoint
+pandas
+scipy
+typing-extensions
+apache_beam
+tqdm
+faiss-cpu

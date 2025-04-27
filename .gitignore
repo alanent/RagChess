@@ -1,0 +1,9 @@
+.git/
+.vs/
+.env
+env
+venv/
+__pycache__/
+.vscode/
+**/__pycache__/
+searchless_chess/checkpoints/
